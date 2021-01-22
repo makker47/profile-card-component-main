@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  background-color: rgba(25, 161, 173, 1);
+  overflow: hidden;
+  
+  
+}
+
+.top {
+  
+  position: absolute;
+  left: -246px;
+  top: -494px;
+}
+.bottom {
+  position: absolute;
+  right: -150px ;
+  bottom: -600px;
+  
+}
+
+span, p {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 350px;
+  height: 372px;
+  border-radius: 15px;
+  overflow: hidden;
+  
+}
+
+.card {
+  position: relative;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.foto {
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: white;
+}
+
+.name {
+  line-height: 1.6;
+  margin-top: 70px;
+  text-align: center;
+}
+.name p{
+  font-size: 14px;
+}
+
+.line {
+  margin-top: 20px;
+  border: solid;
+  color: hsl(0, 0%, 59%);
+  border-width: thin;
+}
+
+.info {
+  display: flex;
+  line-height: 1.6;
+  text-align: center;
+  justify-content: space-between;
+  margin: 20px 50px 0 50px; 
+}
+
+.info p{
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 375px) { 
+*{
+  overflow: hidden;
+}
+
+ body {
+   width: 375px;
+   height: 500px;
+
+ 
+ }
+  .top {
+    position: relative;
+    left: -700px;
+    top: -650px;
+  }
+  .bottom {
+    position: relative;
+    right: -57px;
+    bottom: 647px;
+    
+  }
+
+}
